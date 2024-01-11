@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+   font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-links {
+   list-style: none;
+   display: flex;
+} 
+.nav-links li{
+    margin-right: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    font-family: Lato;
+    text-align: left;
+
+}
+.nav-links .active{
+    color: #E71800;
+    
+
+}
+a:hover {
+    color: blue; 
+}
+.my-button1 {
+    background-color: #E71800;
+    width: 153px;
+    color: white;
+    font-weight: 600px;
+    padding: 9px 10px 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.my-button:hover{
+    color: #000;
+}
+.hero{
+    padding: 20px;
+    background-color: blue;
+    background-image: url(../image/backpc.jpg);
+    color: #fff;
+    background-size: cover none;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    font-weight: 600px;
+}
+.my-button2 {
+    background-color: #E71800;
+    width: 153px;
+    color: white;
+    font-weight: 600px;
+    padding: 9px 10px 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+h1{
+    font-size: 50px;
+    padding-top: 0;
+}
+.about{
+    text-align: center;
+    font-weight: bold;
+    font-style: lato;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+hr{
+    background-color: #E71800;
+    width: 180px;
+    height: 6px;
+    border: none;
+    border-radius: 8px;
+}
+h5{
+    font-size: 15px;
+    font-family: lato;
+}
+.active{
+    color: red;
+    font-weight: 600; 
+}
+.freight-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.logistics{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em; 
+    text-align: left;
+}
+.my-button-container{
+    padding: 15px, 14px, 14px, 15px;
+}
+.Learn{
+    width: 121px;
+    height: 48px;
+    padding: 15px, 14px, 14px, 15px;
+    border-radius: 8px;
+    background-color: #E71800;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Learn:hover{
+    color: #000000;
+    
+}
+.active
+p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+.types{
+    color: #E71800;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+}
+.my-button3 {
+    background-color: #E71800;
+    width: 153px;
+    color: white;
+    font-weight: 600px;
+    padding: 9px 10px 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.freight-container{
+  display: grid;
+  grid-template-columns: ifr ifr ifr;
+}
+.h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+.h4, p{
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+.yellowpart{
+    display: flex;
+    padding:20px;
+    background: #FFBF14;
+    height: 130px;
+    flex-shrink: 0;
+
+}
+.deliver{
+    padding: 20px;
+    padding-right: 0;
+    text-align: left;
+}
+  
+.delivering{
+text-align: left;
+}
+
+.deliver p{
+padding: 0px;
+}  
+.my-button-container{
+    padding: 20px;
+    margin-left: auto;
+}
+.my-button4 {
+    background-color: #E71800;
+    width: 153px;
+    color: white;
+    font-weight: 600px;
+    padding: 9px 10px 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deliver, .Learn{
+
+padding: 10px;
+}
+.Request{
+    width: 111px;
+    height: 48px;
+    padding: 15px, 14px, 14px, 15px;
+    border-radius: 8px;
+    background-color: #E71800;
+    border: none;
+    color: #fff;
+    margin-right: 20px;
+}
+.delivering{
+    width: (620px);
+    height: Hug (66px);
+    top: 1802px;
+    left: 119px;
+    gap: 10px;
+    
+}.icon-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sub-icon-column, p{
+    font-size: 18px;
+    padding-top: 2px; 
+    padding-left: 15px;
+}
+.sub-icon-column{
+    display: flex;
+    padding-left: 10px;
+}
+.p{
+    padding-top: 0;
+}
+.circle{
+    padding-top: 5px;
+    height: min-content;
+    
+}
+.icon-column{
+    padding: 0px;
+    margin: 5px;
+}
+.why{
+    display: flex;
+    gap: 500px;
+    padding-left: 50px;
+}
+.sub-icon-column, h4{
+    padding-left: 15px;
+    padding-top: 2px;
+    align-items: center;
+    margin-bottom: 5px; /* Adjust the margin-bottom to move the h4 tag up */
+}
+.A{
+    display: flex;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    gap: 20px;
+}  
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 7%;
+    background-color: #000000;
+    width: 200%;
+}
+h1{
+    text-decoration: none;
+}
+.footer-column{
+    color: #fff;
+    list-style: none;
+}
+.submit{
+    background-color: #E71800;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    align-content: center;
+    padding: 5px;
+    color: #fff;
+    
+}
+.h2{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 30px;
+    
+}
+.form{
+    display: flex;
+    width: 621px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px 21px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.form-control{
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #515151;
+    padding-left: 10px;
+}
+.message{
+    width: 621px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #515151;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.footer-logistics{
+    background: #000;
+    color: #fff;
+}
+
+.container-footer{
+    padding: 7px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+}
+.colospan,li{
+    align-items: center;
+    list-style: none;
+    margin-top: 12px;
+}
+.col-span{
+   padding: 20px;
+}
+.flexing {
+    display: inline-flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+.mt-5{
+    margin-top: 12px;
+}
+.text-center{
+    text-align: center;
+}
+.bt{
+    margin-top: 20px;
+}
+
+/* Mobile styles for screens below 767px e.g mobile phones  */
+@media (max-width: 767px) {
+    .nav-links{
+        display: none;
+    }
+    .logo{
+       margin-right: auto;
+    }
+    .burger-menu{
+        padding-right: 5px;
+    }
+    .my-button1{
+        display: none;
+        width: 83px;
+        font-weight: 600px;
+        padding: 5px 6px 6px 6px;
+        font-size: 13px;
+    }
+    .hero{
+        text-align: center;
+    }
+    .title{
+        padding-right: 10px;
+        padding-right: 0px; 
+        font-size: 45px;
+        font-weight: bold; 
+    }
+    .container{
+        display:grid;
+        grid-template-columns: ifr;
+    }
+.column{
+    text-align: center;
+}
+}
