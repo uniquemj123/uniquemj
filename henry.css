@@ -35,7 +35,7 @@ nav{
 a:hover {
     color: blue; 
 }
-.my-button1 {
+.my-button {
     background-color: #E71800;
     width: 153px;
     color: white;
@@ -50,29 +50,25 @@ a:hover {
 .my-button:hover{
     color: #000;
 }
+
+
+
+
+
 .hero{
     padding: 20px;
     background-color: blue;
     background-image: url(../image/backpc.jpg);
     color: #fff;
-    background-size: cover none;
+    background-size: cover;
     background-position: center;
     height: 300px;
     width: 100%;
     font-weight: 600px;
+    background-repeat: no-repeat;
+
 }
-.my-button2 {
-    background-color: #E71800;
-    width: 153px;
-    color: white;
-    font-weight: 600px;
-    padding: 9px 10px 10px 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+
 h1{
     font-size: 50px;
     padding-top: 0;
@@ -151,18 +147,6 @@ p{
     text-align: center;
     align-items: center;
     margin-top: 0;
-}
-.my-button3 {
-    background-color: #E71800;
-    width: 153px;
-    color: white;
-    font-weight: 600px;
-    padding: 9px 10px 10px 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 .freight-container{
   display: grid;
@@ -244,11 +228,14 @@ padding: 10px;
 .sub-icon-column, p{
     font-size: 18px;
     padding-top: 2px; 
-    padding-left: 15px;
+   margin-left: 25px;
 }
 .sub-icon-column{
     display: flex;
     padding-left: 10px;
+    margin-bottom: px;
+    gap: 10px;
+    align-items: center;
 }
 .p{
     padding-top: 0;
@@ -264,14 +251,14 @@ padding: 10px;
 }
 .why{
     display: flex;
-    gap: 500px;
+    gap: 100px;
     padding-left: 50px;
 }
-.sub-icon-column, h4{
+.sub-icon-column h4{
     padding-left: 15px;
     padding-top: 2px;
     align-items: center;
-    margin-bottom: 5px; /* Adjust the margin-bottom to move the h4 tag up */
+    /*margin-bottom: 50px; /* Adjust the margin-bottom to move the h4 tag up */
 }
 .A{
     display: flex;
@@ -382,7 +369,7 @@ h1{
     .burger-menu{
         padding-right: 5px;
     }
-    .my-button1{
+    #btn1{
         display: none;
         width: 83px;
         font-weight: 600px;
@@ -400,9 +387,114 @@ h1{
     }
     .container{
         display:grid;
-        grid-template-columns: ifr;
+        grid-template-columns: 1fr;
     }
 .column{
     text-align: center;
+    align-items: center;
 }
+.about{
+    text-align: center;  
+}
+
+.smiling{
+    width: 100%;
+    
+}
+.active{
+    text-align: center;
+    align-items: center;
+    }
+    .logistics{
+        text-align: center;
+    }
+    p{
+        align-items: center;
+    }
+    .freight-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .icon h4{
+        padding: 0px;
+    }
+    p{
+        padding: 0px;
+    }
+    .pic{
+        width: 100%;
+    }
+    .yellowpart{
+        align-items: center;
+        gap: 40px;
+       width: 100%;
+       align-items: center;  
+    }
+    .delivering{
+        font-size: 22px;
+    }
+    .deliver p{
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    #btn4{
+        width: 105px;
+        height: 35px;
+        font-size: 12px;
+        padding: 5px;
+        margin-right: 15px;
+    }  
+    .icon-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .icon-column{
+       align-content: center;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: center;
+       width: 100%;
+    }
+    .icon-column h2{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-right: 100px ;
+        margin-left: 0px;
+
+    }
+    .form-control{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 210px;
+    }
+    .message{
+        width: 460px;
+        height: 100px;
+    }
+    .submit{
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        display: list-item;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .col-span{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-left: 50px;
+    }
+    .column-span h4{
+        text-align: center;
+
+    }
+   
+
+
 }
